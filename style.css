@@ -4,16 +4,31 @@ body{
 
 section{
     flex: 1;
-    color: white;
+    color: black;
     text-align: center;
     font-size: 20px;
+    background-image: url(gradiantblue.jpg);
+    font-family: cursive, 'Nanum Pen Script';
+    border: 2px solid chartreuse;
+    border-radius: 25px;
 }
 
 header{
     background-color: black;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     font-size: 22px;
+    background-image: url(gradiantblue.jpg);
 }
+
+.logo {
+  font-family: cursive, 'Nanum Pen Script';
+  font-size: 72px;
+  color: black;
+  text-align: center;
+  letter-spacing: -3;
+  margin: 0;
+  padding: 20px 0 0 0;
+} 
 
 header h1{
     color: white;
@@ -25,7 +40,8 @@ header h1{
 header nav{
     display: flex;
     justify-content: center;
-    font-size: 25px;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 header nav ul{
@@ -38,6 +54,7 @@ header nav ul li a{
     color: white;
     text-decoration: none;
     margin: 0 20px 0 0;
+    color: black;
 }
 
 header nav ul li:last-child a{
@@ -48,7 +65,6 @@ header nav ul li:last-child a{
     display: block;
     margin-left: auto;
     margin-right: auto;
-
 }
 
 
@@ -80,6 +96,9 @@ header nav ul li:last-child a{
 /* Add padding to containers */
 .container {
     padding: 16px;
+    background-color: chartreuse;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
   
   /* Full-width input fields */
@@ -121,11 +140,11 @@ header nav ul li:last-child a{
   
   /* Add a blue text color to links */
   a {
-    color: dodgerblue;
+    color: blue;
   }
   
   /* Set a grey background color and center the text of the "sign in" section */
   .signin {
-    background-color: black;
+    background-color:green;
     text-align: center;
   }
