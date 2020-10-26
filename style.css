@@ -1,5 +1,6 @@
 body{
     margin: 0%;
+    background-color: aqua;
 }
 
 section{
@@ -7,9 +8,9 @@ section{
     color: black;
     text-align: center;
     font-size: 20px;
-    background-image: url(gradiantblue.jpg);
+    margin: 10px;
     font-family: cursive, 'Nanum Pen Script';
-    border: 2px solid chartreuse;
+    border: 2px solid red;
     border-radius: 25px;
 }
 
@@ -67,6 +68,15 @@ header nav ul li:last-child a{
     margin-right: auto;
 }
 
+textarea {
+  width: 100%;
+}
+
+.p{  
+  justify-content: center;
+  flex: row;
+}
+
 
 /*   Navbar Desktop view   */
 
@@ -96,8 +106,9 @@ header nav ul li:last-child a{
 /* Add padding to containers */
 .container {
     padding: 16px;
-    background-color: chartreuse;
+    background-color: blue;
     text-align: center;
+    color:white;
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
   
